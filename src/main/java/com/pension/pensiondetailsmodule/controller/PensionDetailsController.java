@@ -22,7 +22,6 @@ import com.pension.pensiondetailsmodule.service.PensionDetailsServiceImpl;
  */
 @RestController
 @CrossOrigin
-@RequestMapping(value = "/api")
 public class PensionDetailsController {
 
 	@Autowired

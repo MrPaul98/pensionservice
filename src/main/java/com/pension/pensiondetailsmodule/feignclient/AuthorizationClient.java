@@ -17,7 +17,7 @@ import com.pension.pensiondetailsmodule.model.JwtRequest;
  *
  */
 //@FeignClient(name = "Authorization-Service", url = "http://localhost:8400")  
-@FeignClient(name = "Authorization-Service", url = "http://18.217.222.29:8400")	
+@FeignClient(name = "Authorization-Service", url = "${PENSION-DETAILS-MODULE:http://localhost:8400}")
 public interface AuthorizationClient {
 	
 	@GetMapping(value = "/api/authorize/{token}")

@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.pension.pensiondetailsmodule</groupId>
 	<artifactId>pension-details-module</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2.1.1-SNAPSHOT</version>
 	<name>pension-details-module</name>
 	<description>Pension-Details-Module</description>
 	<properties>
